@@ -3,14 +3,6 @@
 <style><%@include file="/WEB-INF/assets/css/styles.css"%></style>
 <style><%@include file="/WEB-INF/HTML/menu/bootstrap/css/bootstrap.min.css"%></style>
 <style><%@include file="/WEB-INF/HTML/css/layout.min.css"%></style>
-
-
-<%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/css/bootstrap.css"%></style>--%>
-<%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/css/bootstrap-theme.css"%></style>--%>
-<%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/js/bootstrap.js"%></style>--%>
-<%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/js/jquery.min.js"%></style>--%>
-<%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/js/jquery.smooth-scroll.js"%></style>--%>
-<%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/js/npm.js"%></style>--%>
 <style><%@include file="/widgets/yourwork.svg"%></style>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
