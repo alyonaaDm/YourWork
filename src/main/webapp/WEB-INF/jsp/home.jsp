@@ -5,7 +5,7 @@
 <html>
 <head>
     <title>Sign up</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/WEB-INF/HTML/css/style.css">
 </head>
 <body>
 

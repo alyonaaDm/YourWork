@@ -9,7 +9,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="802305ae-e08b-437f-b404-c8626b275e9b" name="Default Changelist" comment="" />
+    <list default="true" id="802305ae-e08b-437f-b404-c8626b275e9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/css/layout.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/css/layout.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/img/1920x1080/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/1920x1080/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/img/970x647/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/970x647/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/img/970x647/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/970x647/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/img/970x647/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/970x647/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/mainPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/mainPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/menu/widgets/yourwork.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/widgets/yourwork.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/resumePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HTML/resumePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/assets/images/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/assets/images/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/images/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/signIn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/signIn.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +39,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -30,6 +50,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1yOYXm5udUbRri4ygmMaiymjQjw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,6 +59,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
@@ -56,11 +78,11 @@
       <recent name="C:\Users\alyon\IdeaProjects\YourWork\src\main\java\ru\kpfu\itis\repositories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alyon\IdeaProjects\YourWork\src\main\webapp\img" />
+      <recent name="C:\Users\alyon\IdeaProjects\YourWork\src\main\webapp" />
       <recent name="C:\Users\alyon\IdeaProjects\YourWork\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\alyon\IdeaProjects\YourWork\src\main\webapp\HTML\css" />
       <recent name="C:\Users\alyon\IdeaProjects\YourWork\src\main\webapp\jsp" />
-      <recent name="C:\Users\alyon\IdeaProjects\YourWork\src\main\webapp\HTML\menu\widgets" />
-      <recent name="C:\Users\alyon\IdeaProjects\Blog 1.1\src\main\webapp\HTML" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.48">
@@ -77,15 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,11 +248,25 @@
       <workItem from="1635882927705" duration="502000" />
       <workItem from="1636058499869" duration="609000" />
       <workItem from="1636194085485" duration="10004000" />
-      <workItem from="1636210928637" duration="5761000" />
+      <workItem from="1636210928637" duration="8119000" />
+      <workItem from="1636289871270" duration="430000" />
+      <workItem from="1636304582797" duration="2245000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -1,15 +1,17 @@
 <style><%@include file="/WEB-INF/HTML/css/layout.css"%></style>
 <style><%@include file="/WEB-INF/HTML/css/layout.min.css"%></style>
-<%--<style><%@include file="/WEB-INF/assets/images/car.png"%></style>--%>
-<%--<style><%@include file="/WEB-INF/assets/images/profile.png"%></style>--%>
-<%--<style><%@include file="/WEB-INF/assets/css/styles.css"%></style>--%>
+<style><%@include file="/WEB-INF/assets/css/styles.css"%></style>
+<style><%@include file="/WEB-INF/HTML/menu/bootstrap/css/bootstrap.min.css"%></style>
+<style><%@include file="/WEB-INF/HTML/css/layout.min.css"%></style>
+
+
 <%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/css/bootstrap.css"%></style>--%>
 <%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/css/bootstrap-theme.css"%></style>--%>
 <%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/js/bootstrap.js"%></style>--%>
 <%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/js/jquery.min.js"%></style>--%>
 <%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/js/jquery.smooth-scroll.js"%></style>--%>
 <%--<style><%@include file="/WEB-INF/HTML/menu/bootstrap/js/npm.js"%></style>--%>
-<style><%@include file="/WEB-INF/HTML/menu/widgets/yourwork.svg"%></style>
+<style><%@include file="/widgets/yourwork.svg"%></style>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -20,8 +22,8 @@
     <meta content="" name="author"/>
     <!-- удерживает верную разметку и масштаб -->
     <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-    <link href="menu/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+    <link href="${pageContext.request.contextPath}/WEB-INF/HTML/menu/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="${pageContext.request.contextPath}/WEB-INF/HTML/css/layout.min.css" rel="stylesheet" type="text/css"/>
 </head>
 <body id="body" data-spy="scroll" data-target=".header">
 <header class="header navbar-fixed-top">
@@ -35,8 +37,8 @@
                 </button>
                 <div class="logo">
                     <a class="logo-wrap" href="#body">
-                        <img class="logo-img logo-img-main" src="menu/widgets/yourwork.svg" alt="Asentus Logo">
-                        <img class="logo-img logo-img-active" src="menu/widgets/yourwork.svg" alt="Asentus Logo">
+                        <img class="logo-img logo-img-main" src="${pageContext.request.contextPath}/widgets/yourwork.svg" alt="yourWork Logo">
+                        <img class="logo-img logo-img-active" src="${pageContext.request.contextPath}/widgets/yourwork.svg" alt="yourWork Logo">
                     </a>
                 </div>
             </div>
@@ -47,9 +49,9 @@
                         </li>
                         <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#resumes">Resumes</a>
                         </li>
-                        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="/YourWork_war/signIn">Sign
+                        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="${pageContext.request.contextPath}/YourWork_war/signIn">Sign
                             in</a></li>
-                        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="/YourWork_war/signUp">Sign up</a></li>
+                        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="${pageContext.request.contextPath}/YourWork_war/signUp">Sign up</a></li>
                     </ul>
                 </div>
             </div>
@@ -78,7 +80,7 @@
         <div class="row">
             <div class="col-sm-4 sm-margin-b-50">
                 <div class="margin-b-20">
-                    <img class="img-responsive wow fadeIn" src="${pageContext.request.contextPath}/WEB-INF/HTML/img/970x647/01.jpg" alt="Latest Products Image"
+                    <img class="img-responsive wow fadeIn" src="${pageContext.request.contextPath}/img/970x647/01.jpg" alt="Latest Products Image"
                          data-wow-duration=".3" data-wow-delay=".1s">
                 </div>
                 <h4><a href="#">Office</a> <span class="text-uppercase margin-l-20">Management</span></h4>
@@ -86,7 +88,7 @@
             </div>
             <div class="col-sm-4 sm-margin-b-50">
                 <div class="margin-b-20">
-                    <img class="img-responsive wow fadeIn" src="${pageContext.request.contextPath}/WEB-INF/HTML/img/970x647/02.jpg" alt="Latest Products Image"
+                    <img class="img-responsive wow fadeIn" src="${pageContext.request.contextPath}/img/970x647/02.jpg" alt="Latest Products Image"
                          data-wow-duration=".3" data-wow-delay=".2s">
                 </div>
                 <h4><a href="#">Stuck in place</a> <span class="text-uppercase margin-l-20">Development</span></h4>
@@ -94,7 +96,7 @@
             </div>
             <div class="col-sm-4 sm-margin-b-50">
                 <div class="margin-b-20">
-                    <img class="img-responsive wow fadeIn" src="${pageContext.request.contextPath}/WEB-INF/HTML/img/970x647/03.jpg" alt="Popular resumes Image"
+                    <img class="img-responsive wow fadeIn" src="${pageContext.request.contextPath}/img/970x647/03.jpg" alt="Popular resumes Image"
                          data-wow-duration=".3" data-wow-delay=".3s">
                 </div>
                 <h4><a href="#">Freelance</a> <span class="text-uppercase margin-l-20">Design</span></h4>
@@ -107,10 +109,10 @@
     <div class="container-full-width">
         <div class="row row-space-2">
             <div class="col-sm-6 sm-margin-b-4">
-                <img class="img-responsive" src="${pageContext.request.contextPath}/WEB-INF/HTML/img/970x647/01.jpg" alt="Image">
+                <img class="img-responsive" src="${pageContext.request.contextPath}/img/970x647/01.jpg" alt="Image">
             </div>
             <div class="col-sm-6">
-                <img class="img-responsive" src="${pageContext.request.contextPath}/WEB-INF/HTML/img/970x647/03.jpg" alt="Image">
+                <img class="img-responsive" src="${pageContext.request.contextPath}/img/970x647/03.jpg" alt="Image">
             </div>
         </div>
     </div>
@@ -119,7 +121,7 @@
     <div class="content container">
         <div class="row">
             <div class="col-xs-6">
-                <img class="footer-logo" src="${pageContext.request.contextPath}/WEB-INF/HTML/menu/widgets/yourwork.svg" alt="Aironepage Logo">
+                <img class="footer-logo" src="${pageContext.request.contextPath}/widgets/yourwork.svg" alt="yourWork Logo">
             </div>
             <div class="col-xs-6 text-right">
                 <p class="margin-b-0">powered by: <a class="fweight-700"
@@ -141,9 +143,9 @@
         async defer></script>
 
 <!-- PAGE LEVEL SCRIPTS -->
-<script src="../HTML/menu/js/layout.min.js" type="text/javascript"></script>
-<script src="../HTML/menu/js/components/wow.min.js" type="text/javascript"></script>
-<script src="../HTML/menu/js/components/swiper.min.js" type="text/javascript"></script>
-<script src="../HTML/menu/js/components/masonry.min.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/WEB-INF/HTML/menu/js/layout.min.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/WEB-INF/HTML/menu/js/components/wow.min.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/WEB-INF/HTML/menu/js/components/swiper.min.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/WEB-INF/HTML/menu/js/components/masonry.min.js" type="text/javascript"></script>
 </body>
 </html>

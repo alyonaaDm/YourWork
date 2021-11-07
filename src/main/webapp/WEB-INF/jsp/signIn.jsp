@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <style>
-    <%@include file="/jsp/style.css" %>
+    <%@include file="/WEB-INF/jsp/style.css" %>
 </style>
 <html>
 <head>

@@ -135,7 +135,7 @@ h4 {
     position: relative;
     z-index: 1;
     text-align: center;
-    background-image: url(../img/1920x1080/01.jpg);
+    background-image: url(/img/1920x1080/01.jpg);
     background-size: cover;
     background-position: center center;
     padding: 250px 0 200px;

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
           rel='stylesheet' type='text/css'>
-    <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css">
+    <link id="theme-style" rel="stylesheet" href="${pageContext.request.contextPath}/WEB-INF/assets/css/styles.css">
 </head>
 <body>
 <div class="wrapper">
